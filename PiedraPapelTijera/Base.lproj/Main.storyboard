@@ -21,29 +21,153 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ifo-4j-m0H" userLabel="Title">
                                         <rect key="frame" x="0.0" y="0.0" width="373" height="73.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Piedra Papel Tijeras" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2lf-aB-qCc">
+                                                <rect key="frame" x="69" y="0.0" width="235" height="33.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="2lf-aB-qCc" firstAttribute="centerX" secondItem="ifo-4j-m0H" secondAttribute="centerX" id="A4E-6M-JQp"/>
+                                            <constraint firstItem="2lf-aB-qCc" firstAttribute="top" secondItem="ifo-4j-m0H" secondAttribute="top" id="Zwx-t9-eeW"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jXv-8b-2gt" userLabel="Row 2">
                                         <rect key="frame" x="0.0" y="73.5" width="373" height="147.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jugador" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2h-zE-vhd">
+                                                <rect key="frame" x="54" y="0.0" width="79" height="26.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Computadora" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DpY-qk-U33">
+                                                <rect key="frame" x="214" y="0.0" width="131" height="26.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iM-iU-9cK" userLabel="Numero Jugador">
+                                                <rect key="frame" x="84" y="55.5" width="19" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnV-1M-9fG" userLabel="Numero Computadora">
+                                                <rect key="frame" x="270" y="55.5" width="19" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="1iM-iU-9cK" firstAttribute="centerY" secondItem="jXv-8b-2gt" secondAttribute="centerY" id="Kpw-QR-nwn"/>
+                                            <constraint firstItem="lnV-1M-9fG" firstAttribute="centerY" secondItem="jXv-8b-2gt" secondAttribute="centerY" id="NI0-OE-AQY"/>
+                                            <constraint firstItem="G2h-zE-vhd" firstAttribute="top" secondItem="jXv-8b-2gt" secondAttribute="top" id="Rwf-Dj-PGx"/>
+                                            <constraint firstItem="DpY-qk-U33" firstAttribute="centerX" secondItem="jXv-8b-2gt" secondAttribute="centerX" multiplier="1.5" id="pv5-fI-Hbl"/>
+                                            <constraint firstItem="DpY-qk-U33" firstAttribute="top" secondItem="jXv-8b-2gt" secondAttribute="top" id="wW8-yt-Jvb"/>
+                                            <constraint firstItem="G2h-zE-vhd" firstAttribute="centerX" secondItem="jXv-8b-2gt" secondAttribute="centerX" multiplier="0.5" id="xti-Cq-iga"/>
+                                            <constraint firstItem="lnV-1M-9fG" firstAttribute="centerX" secondItem="jXv-8b-2gt" secondAttribute="centerX" multiplier="1.5" id="xvm-aA-okR"/>
+                                            <constraint firstItem="1iM-iU-9cK" firstAttribute="centerX" secondItem="jXv-8b-2gt" secondAttribute="centerX" multiplier="0.5" id="yPL-MG-Lvu"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c3j-33-Be1" userLabel="Row 3">
                                         <rect key="frame" x="0.0" y="221" width="373" height="257.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJO-Ai-wIq" userLabel="Paper">
-                                                <rect key="frame" x="92" y="-13" width="190" height="164"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijL-b0-tm9" userLabel="Rock">
+                                                <rect key="frame" x="0.0" y="114" width="175" height="151"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="151" id="6rq-Lc-Lni"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="rock">
+                                                    <color key="titleShadowColor" systemColor="systemGray2Color"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kW9-GL-G6G" userLabel="Scissors">
+                                                <rect key="frame" x="209" y="113" width="175" height="151"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="151" id="1Mm-W6-g3l"/>
+                                                    <constraint firstAttribute="width" constant="175" id="5xI-qH-DBV"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="scissors"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fI2-b9-pd0" userLabel="Paper">
+                                                <rect key="frame" x="102.5" y="-16" width="168" height="145"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="168" id="Khu-cI-fKf"/>
+                                                    <constraint firstAttribute="height" constant="145" id="tCq-s1-2uF"/>
+                                                </constraints>
                                                 <state key="normal" title="Button" image="paper"/>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="EJO-Ai-wIq" firstAttribute="centerY" secondItem="c3j-33-Be1" secondAttribute="centerY" multiplier="0.3" id="9DS-O0-mR3"/>
-                                            <constraint firstItem="EJO-Ai-wIq" firstAttribute="centerX" secondItem="c3j-33-Be1" secondAttribute="centerX" id="sVY-dn-aE1"/>
+                                            <constraint firstItem="fI2-b9-pd0" firstAttribute="centerX" secondItem="c3j-33-Be1" secondAttribute="centerX" id="2wd-uV-jip"/>
+                                            <constraint firstAttribute="bottom" secondItem="kW9-GL-G6G" secondAttribute="bottom" constant="-6.5" id="A1d-1P-xtP"/>
+                                            <constraint firstItem="kW9-GL-G6G" firstAttribute="leading" secondItem="ijL-b0-tm9" secondAttribute="trailing" constant="34" id="YT7-Nc-mQd"/>
+                                            <constraint firstAttribute="trailing" secondItem="kW9-GL-G6G" secondAttribute="trailing" constant="-11" id="amH-dL-umR"/>
+                                            <constraint firstAttribute="bottom" secondItem="ijL-b0-tm9" secondAttribute="bottom" constant="-7.5" id="dFv-iY-VOU"/>
+                                            <constraint firstItem="ijL-b0-tm9" firstAttribute="leading" secondItem="c3j-33-Be1" secondAttribute="leading" id="mdm-yl-iXi"/>
+                                            <constraint firstItem="kW9-GL-G6G" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ijL-b0-tm9" secondAttribute="trailing" constant="8" symbolic="YES" id="mpf-in-Ll4"/>
+                                            <constraint firstItem="fI2-b9-pd0" firstAttribute="top" secondItem="c3j-33-Be1" secondAttribute="top" constant="-16" id="uRS-4Q-Zer"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XhW-Mk-NT5" userLabel="Row 4">
-                                        <rect key="frame" x="0.0" y="662.5" width="373" height="73.5"/>
+                                        <rect key="frame" x="0.0" y="589" width="373" height="147"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jugador escogió:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OA2-Wd-EfH" userLabel="Texto Jugador">
+                                                <rect key="frame" x="0.0" y="0.0" width="152" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Computadora escogió:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deS-3o-wEF" userLabel="Texto Computadora">
+                                                <rect key="frame" x="0.0" y="32" width="200" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ganador:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqd-tw-yxb" userLabel="Texto Ganador">
+                                                <rect key="frame" x="0.0" y="61.5" width="81" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pat-BO-utZ" userLabel="Opcion Jugador">
+                                                <rect key="frame" x="234" y="0.0" width="137" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3h-CS-LzU" userLabel="Opcion Computadora">
+                                                <rect key="frame" x="234" y="32" width="137" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGg-rH-LPh" userLabel="Ganador">
+                                                <rect key="frame" x="234" y="64" width="137" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="deS-3o-wEF" firstAttribute="centerY" secondItem="XhW-Mk-NT5" secondAttribute="centerY" multiplier="0.6" id="Upz-FU-NBt"/>
+                                            <constraint firstItem="Cqd-tw-yxb" firstAttribute="leading" secondItem="XhW-Mk-NT5" secondAttribute="leading" id="f8w-Ge-mDz"/>
+                                            <constraint firstItem="OA2-Wd-EfH" firstAttribute="leading" secondItem="XhW-Mk-NT5" secondAttribute="leading" id="gwV-Sa-8YS"/>
+                                            <constraint firstItem="OA2-Wd-EfH" firstAttribute="top" secondItem="XhW-Mk-NT5" secondAttribute="top" id="nt0-vv-2aK"/>
+                                            <constraint firstItem="Cqd-tw-yxb" firstAttribute="centerY" secondItem="XhW-Mk-NT5" secondAttribute="centerY" id="pTo-1r-j0o"/>
+                                            <constraint firstItem="deS-3o-wEF" firstAttribute="leading" secondItem="XhW-Mk-NT5" secondAttribute="leading" id="xlH-VS-FUl"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -57,7 +181,7 @@
                                     <constraint firstItem="jXv-8b-2gt" firstAttribute="leading" secondItem="Whf-Ow-Uoz" secondAttribute="leading" id="V1N-C5-GBK"/>
                                     <constraint firstItem="ifo-4j-m0H" firstAttribute="leading" secondItem="Whf-Ow-Uoz" secondAttribute="leading" id="VB5-Bm-KaK"/>
                                     <constraint firstItem="c3j-33-Be1" firstAttribute="top" secondItem="jXv-8b-2gt" secondAttribute="bottom" id="WNU-GZ-9MS"/>
-                                    <constraint firstItem="XhW-Mk-NT5" firstAttribute="height" secondItem="Whf-Ow-Uoz" secondAttribute="height" multiplier="0.1" id="aiV-DJ-eYl"/>
+                                    <constraint firstItem="XhW-Mk-NT5" firstAttribute="height" secondItem="Whf-Ow-Uoz" secondAttribute="height" multiplier="0.2" id="aiV-DJ-eYl"/>
                                     <constraint firstItem="ifo-4j-m0H" firstAttribute="width" secondItem="Whf-Ow-Uoz" secondAttribute="width" id="buu-Fk-Z8N"/>
                                     <constraint firstAttribute="bottom" secondItem="XhW-Mk-NT5" secondAttribute="bottom" id="f72-ET-HSz"/>
                                     <constraint firstItem="XhW-Mk-NT5" firstAttribute="leading" secondItem="Whf-Ow-Uoz" secondAttribute="leading" id="iBJ-gs-N25"/>
@@ -84,8 +208,13 @@
     </scenes>
     <resources>
         <image name="paper" width="340" height="340"/>
+        <image name="rock" width="340" height="340"/>
+        <image name="scissors" width="340" height="340"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
