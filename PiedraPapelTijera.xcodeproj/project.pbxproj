@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4029288B28B1A404003F9F5D /* Partida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029288A28B1A404003F9F5D /* Partida.swift */; };
+		4029289028B1A596003F9F5D /* Turno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029288F28B1A596003F9F5D /* Turno.swift */; };
+		4029289628B1A721003F9F5D /* JugarTurno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029289528B1A721003F9F5D /* JugarTurno.swift */; };
+		4029289B28B1ACE7003F9F5D /* OpcionRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029289A28B1ACE7003F9F5D /* OpcionRandom.swift */; };
 		40F1F70E28AEEBDD000F4076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F1F70D28AEEBDD000F4076 /* AppDelegate.swift */; };
 		40F1F71028AEEBDD000F4076 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F1F70F28AEEBDD000F4076 /* SceneDelegate.swift */; };
 		40F1F71228AEEBDD000F4076 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F1F71128AEEBDD000F4076 /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4029288A28B1A404003F9F5D /* Partida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partida.swift; sourceTree = "<group>"; };
+		4029288F28B1A596003F9F5D /* Turno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turno.swift; sourceTree = "<group>"; };
+		4029289528B1A721003F9F5D /* JugarTurno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JugarTurno.swift; sourceTree = "<group>"; };
+		4029289A28B1ACE7003F9F5D /* OpcionRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpcionRandom.swift; sourceTree = "<group>"; };
 		40F1F70A28AEEBDD000F4076 /* PiedraPapelTijera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiedraPapelTijera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F1F70D28AEEBDD000F4076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40F1F70F28AEEBDD000F4076 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4029288828B1A3A5003F9F5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4029289428B1A70F003F9F5D /* Util */,
+				4029288928B1A3B1003F9F5D /* ValueObjects */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4029288928B1A3B1003F9F5D /* ValueObjects */ = {
+			isa = PBXGroup;
+			children = (
+				4029288A28B1A404003F9F5D /* Partida.swift */,
+				4029288F28B1A596003F9F5D /* Turno.swift */,
+			);
+			path = ValueObjects;
+			sourceTree = "<group>";
+		};
+		4029289428B1A70F003F9F5D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4029289528B1A721003F9F5D /* JugarTurno.swift */,
+				4029289A28B1ACE7003F9F5D /* OpcionRandom.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		40F1F70128AEEBDC000F4076 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +134,7 @@
 		40F1F70C28AEEBDD000F4076 /* PiedraPapelTijera */ = {
 			isa = PBXGroup;
 			children = (
+				4029288828B1A3A5003F9F5D /* Models */,
 				40F1F70D28AEEBDD000F4076 /* AppDelegate.swift */,
 				40F1F70F28AEEBDD000F4076 /* SceneDelegate.swift */,
 				40F1F71128AEEBDD000F4076 /* ViewController.swift */,
@@ -259,7 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				40F1F71228AEEBDD000F4076 /* ViewController.swift in Sources */,
+				4029289B28B1ACE7003F9F5D /* OpcionRandom.swift in Sources */,
+				4029288B28B1A404003F9F5D /* Partida.swift in Sources */,
 				40F1F70E28AEEBDD000F4076 /* AppDelegate.swift in Sources */,
+				4029289028B1A596003F9F5D /* Turno.swift in Sources */,
+				4029289628B1A721003F9F5D /* JugarTurno.swift in Sources */,
 				40F1F71028AEEBDD000F4076 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

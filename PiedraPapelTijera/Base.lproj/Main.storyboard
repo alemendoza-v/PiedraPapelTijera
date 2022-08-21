@@ -86,6 +86,9 @@
                                                 <state key="normal" title="Button" image="rock">
                                                     <color key="titleShadowColor" systemColor="systemGray2Color"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="jugar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="epN-KD-T4O"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kW9-GL-G6G" userLabel="Scissors">
                                                 <rect key="frame" x="209" y="113" width="175" height="151"/>
@@ -94,6 +97,9 @@
                                                     <constraint firstAttribute="width" constant="175" id="5xI-qH-DBV"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="scissors"/>
+                                                <connections>
+                                                    <action selector="jugar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hbd-33-khd"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fI2-b9-pd0" userLabel="Paper">
                                                 <rect key="frame" x="102.5" y="-16" width="168" height="145"/>
@@ -102,6 +108,9 @@
                                                     <constraint firstAttribute="height" constant="145" id="tCq-s1-2uF"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="paper"/>
+                                                <connections>
+                                                    <action selector="jugar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UcD-pi-903"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -200,6 +209,16 @@
                             <constraint firstItem="Whf-Ow-Uoz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="oko-ke-SH5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Ganador" destination="zGg-rH-LPh" id="nGx-cu-Unt"/>
+                        <outlet property="NumComputadora" destination="lnV-1M-9fG" id="iVc-x5-FFu"/>
+                        <outlet property="NumJugador" destination="1iM-iU-9cK" id="sJY-ZA-y39"/>
+                        <outlet property="OpcionComputadora" destination="L3h-CS-LzU" id="FDX-NI-wvF"/>
+                        <outlet property="OpcionJugador" destination="pat-BO-utZ" id="wcB-tA-ddK"/>
+                        <outlet property="Paper" destination="fI2-b9-pd0" id="feW-u0-0eq"/>
+                        <outlet property="Rock" destination="ijL-b0-tm9" id="TVI-jB-QIa"/>
+                        <outlet property="Scissors" destination="kW9-GL-G6G" id="Od2-3h-wTJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
