@@ -11,6 +11,10 @@
 		4029289028B1A596003F9F5D /* Turno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029288F28B1A596003F9F5D /* Turno.swift */; };
 		4029289628B1A721003F9F5D /* JugarTurno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029289528B1A721003F9F5D /* JugarTurno.swift */; };
 		4029289B28B1ACE7003F9F5D /* OpcionRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029289A28B1ACE7003F9F5D /* OpcionRandom.swift */; };
+		409BC2CC28B4161600EAF315 /* PartidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409BC2CB28B4161600EAF315 /* PartidaTests.swift */; };
+		409BC2D428B41AF400EAF315 /* TurnoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409BC2D328B41AF400EAF315 /* TurnoTests.swift */; };
+		409BC2E428B421C200EAF315 /* OpcionRandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409BC2E328B421C200EAF315 /* OpcionRandomTests.swift */; };
+		409BC2EC28B426DC00EAF315 /* JugarTurnoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409BC2EB28B426DC00EAF315 /* JugarTurnoTests.swift */; };
 		40F1F70E28AEEBDD000F4076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F1F70D28AEEBDD000F4076 /* AppDelegate.swift */; };
 		40F1F71028AEEBDD000F4076 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F1F70F28AEEBDD000F4076 /* SceneDelegate.swift */; };
 		40F1F71228AEEBDD000F4076 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F1F71128AEEBDD000F4076 /* ViewController.swift */; };
@@ -43,6 +47,10 @@
 		4029288F28B1A596003F9F5D /* Turno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turno.swift; sourceTree = "<group>"; };
 		4029289528B1A721003F9F5D /* JugarTurno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JugarTurno.swift; sourceTree = "<group>"; };
 		4029289A28B1ACE7003F9F5D /* OpcionRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpcionRandom.swift; sourceTree = "<group>"; };
+		409BC2CB28B4161600EAF315 /* PartidaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartidaTests.swift; sourceTree = "<group>"; };
+		409BC2D328B41AF400EAF315 /* TurnoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnoTests.swift; sourceTree = "<group>"; };
+		409BC2E328B421C200EAF315 /* OpcionRandomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpcionRandomTests.swift; sourceTree = "<group>"; };
+		409BC2EB28B426DC00EAF315 /* JugarTurnoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JugarTurnoTests.swift; sourceTree = "<group>"; };
 		40F1F70A28AEEBDD000F4076 /* PiedraPapelTijera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiedraPapelTijera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F1F70D28AEEBDD000F4076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40F1F70F28AEEBDD000F4076 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +119,33 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		409BC2C928B415FA00EAF315 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				409BC2D928B420E700EAF315 /* ValueObjects */,
+				409BC2CA28B4160300EAF315 /* Util */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		409BC2CA28B4160300EAF315 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				409BC2E328B421C200EAF315 /* OpcionRandomTests.swift */,
+				409BC2EB28B426DC00EAF315 /* JugarTurnoTests.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		409BC2D928B420E700EAF315 /* ValueObjects */ = {
+			isa = PBXGroup;
+			children = (
+				409BC2CB28B4161600EAF315 /* PartidaTests.swift */,
+				409BC2D328B41AF400EAF315 /* TurnoTests.swift */,
+			);
+			path = ValueObjects;
+			sourceTree = "<group>";
+		};
 		40F1F70128AEEBDC000F4076 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +184,7 @@
 		40F1F72328AEEBE0000F4076 /* PiedraPapelTijeraTests */ = {
 			isa = PBXGroup;
 			children = (
+				409BC2C928B415FA00EAF315 /* Models */,
 				40F1F72428AEEBE0000F4076 /* PiedraPapelTijeraTests.swift */,
 				40F1F72628AEEBE0000F4076 /* Info.plist */,
 			);
@@ -309,6 +345,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				40F1F72528AEEBE0000F4076 /* PiedraPapelTijeraTests.swift in Sources */,
+				409BC2D428B41AF400EAF315 /* TurnoTests.swift in Sources */,
+				409BC2E428B421C200EAF315 /* OpcionRandomTests.swift in Sources */,
+				409BC2EC28B426DC00EAF315 /* JugarTurnoTests.swift in Sources */,
+				409BC2CC28B4161600EAF315 /* PartidaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

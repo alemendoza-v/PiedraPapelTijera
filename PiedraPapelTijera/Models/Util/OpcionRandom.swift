@@ -12,11 +12,11 @@ public class OpcionRandom {
     /// Funcion para comparar el valor y determinar una opcion
     /// - Returns: Un string que representa la opcion aleatoria
     public func obtenerOpcion() -> String {
-        let randomInt = Int.random(in: 1..<3)
+        let randomInt = Int.random(in: 1..<4)
         if (randomInt == 1) {
             return "Papel"
         }
-        else if (randomInt == 1) {
+        else if (randomInt == 2) {
             return "Piedra"
         }
         else {

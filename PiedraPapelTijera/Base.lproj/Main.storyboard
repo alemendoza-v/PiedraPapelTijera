@@ -80,6 +80,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijL-b0-tm9" userLabel="Rock">
                                                 <rect key="frame" x="0.0" y="114" width="175" height="151"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="buttonPiedra"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="151" id="6rq-Lc-Lni"/>
                                                 </constraints>
@@ -92,6 +93,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kW9-GL-G6G" userLabel="Scissors">
                                                 <rect key="frame" x="209" y="113" width="175" height="151"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="buttonTijeras"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="151" id="1Mm-W6-g3l"/>
                                                     <constraint firstAttribute="width" constant="175" id="5xI-qH-DBV"/>
@@ -103,6 +105,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fI2-b9-pd0" userLabel="Paper">
                                                 <rect key="frame" x="102.5" y="-16" width="168" height="145"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="buttonPapel"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="168" id="Khu-cI-fKf"/>
                                                     <constraint firstAttribute="height" constant="145" id="tCq-s1-2uF"/>
@@ -149,6 +152,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pat-BO-utZ" userLabel="Opcion Jugador">
                                                 <rect key="frame" x="234" y="0.0" width="137" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="campoJugadorEscogio"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>

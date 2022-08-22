@@ -19,7 +19,7 @@ public class Partida {
     /// - Parameters:
     ///   - puntajeJugador: Puntaje acumulado del jugador (usuario)
     ///   - puntajeComputadora: Puntaje acumulado de la computadora
-    public init(puntajeJugador : Int, puntajeComputadora : Int) {
+    init(puntajeJugador : Int, puntajeComputadora : Int) {
         self.puntajeJugador = puntajeJugador
         self.puntajeComputadora = puntajeComputadora
     }
